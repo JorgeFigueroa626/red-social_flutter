@@ -6,7 +6,7 @@ A new Flutter project.
 
 - Place the url of your API [https://API/](https://*API*/)
 
-- In the class `\red_social\lib\helpers\appconstants.dart` class
+- In the class `\red_social\lib\helpers\appconstants.dart` 
   ````
   const BASE_URL = 'http://API/';
   const API_URL = "${BASE_URL}api/";
