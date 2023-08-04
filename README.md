@@ -2,15 +2,27 @@
 
 A new Flutter project.
 
-## Getting Started
+# Prerequisites
 
-This project is a starting point for a Flutter application.
+- Place the url of your API [https://API/](https://*API*/)
 
-A few resources to get you started if this is your first Flutter project:
+- In the class `\red_social\lib\helpers\appconstants.dart` class
+  ````
+  const BASE_URL = 'http://API/';
+  const API_URL = "${BASE_URL}api/";
+  const LOGIN_URL = "${API_URL}login";
+  const REGISTER_URL = "${API_URL}register";
+  const POST_URL = "${API_URL}public/post";
+  const CREATE_URL = "${API_URL}post/create";
+  const CAT_URL = "${API_URL}category/all";
+  const CAT_BY_URL = "${API_URL}public/post/category?category_id=";
+  const PROFILE_URL = "${API_URL}login/user";
+  const USER_POST_URL = "${API_URL}user/post";
+  const IMG_BASE_URL = "${BASE_URL}public";
+  ````
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Posts Dashboard                                |New Posts Panel                          | Profile panel                                     |Registration panel                                     |
+|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| <img src="https://github.com/JorgeFigueroa626/red-social_flutter/blob/main/assents/post.png" height="520"> | <img src="https://github.com/JorgeFigueroa626/red-social_flutter/blob/main/assents/newPost.png" height="520"> | <img src="https://github.com/JorgeFigueroa626/red-social_flutter/blob/main/assents/profile.png" height="520"> | <img src="https://github.com/JorgeFigueroa626/red-social_flutter/blob/main/assents/registerUser.png" height="520"> |
